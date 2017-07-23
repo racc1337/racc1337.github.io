@@ -49,7 +49,7 @@ a:link, a:visited{
 	height: 404px;
 	width: 350px;
 	left: 350px;
-	filter: blur(1px);
+	filter: blur(5px);
 	z-index: 1;
 	background-image: url("lain2.png");
 	background-size: 130%;
