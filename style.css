@@ -7,6 +7,20 @@ body{
 
 }
 
+.content{
+	position: absolute;
+	height: 404px;
+	width: 350px;
+	left: 350px;
+	filter: opacity(30%) contrast(200%) blur(.5px) hue-rotate(120deg);
+	z-index: 1;
+	background-image: url("lain.gif");
+	background-size: 115%;
+	background-repeat: no-repeat;
+	background-position: 150% -80%;
+	background-blend-mode: luminosity;
+}
+
 #divbox{
 	width: 263px;
 	height: 60px;
@@ -44,20 +58,25 @@ a:link, a:visited{
     display: block;
 }
 
+
 #b1:hover{
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #012900;
+
+	filter: blur(.8px);
 }
 #b2:hover{
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #012900;
+	filter: blur(.8px);
 }
 #b3:hover{
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #012900;
+	filter: blur(.8px);
 }
 
 
@@ -109,13 +128,14 @@ position: relative;
 	border-width: 1px;
 	border-style: solid;
 	border-color: lime;
-
+	z-index: 2;
 }
 
 #nav1:hover{
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #012900;
+	filter: blur(.8px);
 }
 
 
@@ -123,18 +143,21 @@ position: relative;
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #012900;
+	filter: blur(.8px);
 }
 
 #nav3:hover{
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #012900;
+	filter: blur(.8px);
 }
 
 #nav4:hover{
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #012900;
+	filter: blur(.8px);
 }
 
 
@@ -222,6 +245,8 @@ position: relative;
 	left: 30px; right: 25%;
 	top: 3px;
 }
+
+
 
 .logo{
 	color: lime;

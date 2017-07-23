@@ -44,20 +44,37 @@ a:link, a:visited{
     display: block;
 }
 
+.content{
+	position: absolute;
+	height: 404px;
+	width: 350px;
+	left: 350px;
+	
+	z-index: 1;
+	background-image: url("lain2.png");
+	background-size: 130%;
+	background-repeat: no-repeat;
+	background-position: 0px 50%;
+	
+}
+
 #b1:hover{
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #330033;
+	filter: blur(.8px);
 }
 #b2:hover{
 	animation-name: ani1;
 	animation-duration: 0.15s;
+	filter: blur(.8px);
 	background-color: #330033;
 }
 #b3:hover{
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #330033;
+	filter: blur(.8px);
 }
 
 
@@ -109,13 +126,14 @@ position: relative;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #ff00ff;
-
+	z-index: 2;
 }
 
 #nav1:hover{
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #330033;
+	filter: blur(.8px);
 }
 
 
@@ -123,18 +141,21 @@ position: relative;
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #330033;
+	filter: blur(.8px);
 }
 
 #nav3:hover{
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #330033;
+	filter: blur(.8px);
 }
 
 #nav4:hover{
 	animation-name: ani1;
 	animation-duration: 0.15s;
 	background-color: #330033;
+	filter: blur(.8px);
 }
 
 
